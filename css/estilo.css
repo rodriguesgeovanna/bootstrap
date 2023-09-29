@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    background-color: #F1EEE8;
+}
+
+
+.imagem_a {
+    width: 300px;
+    height: 600px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.clor {
+    color: rgb(10, 147, 51);
+}
+
+/* CSS */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4c784;
+    color: #fff;
+    text-align: center;
+}
+
+/* CSS */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* CSS */
+.carouselImagem .carousel-inner .carousel-item img {
+    max-width: 80%;
+    /* Defina a largura máxima desejada, por exemplo, 80% */
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente dentro do carousel */
+}
+
+.titulo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+    color: #000;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel-control-next-icon{
+    background-color: rgb(0, 0, 0);
+}
+
